@@ -5,14 +5,27 @@
  */
 
 body {
-    font-family: 'Lato', sans-serif;
+  font-family: 'Lato', sans-serif;
 }
 
+h1 {
+  font-family: 'Pinyon Script', cursive;
+  letter-spacing: 1px;
+  font-size: 54px;
+}
+
+h1 small {
+  font-size: 36%;
+}
+
+.logo {
+  height: 132px;
+}
 .portfolio-item {
-    margin-bottom: 25px;
+  margin-bottom: 25px;
 }
 
 footer {
-    margin: 50px 0;
+  margin: 50px 0;
 }
 
