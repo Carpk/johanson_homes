@@ -8,14 +8,31 @@ body {
   font-family: 'Lato', sans-serif;
 }
 
-h1 {
+h1, h2, h3, h4 {
   font-family: 'Pinyon Script', cursive;
   letter-spacing: 1px;
+}
+
+ul li {
+  margin-right: 3em;
+}
+
+.large-font {
   font-size: 54px;
 }
 
 h1 small {
-  font-size: 36%;
+  font-size: 45%;
+}
+
+.title-borders {
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+}
+
+.center-img {
+  display: block;
+  margin: 0 auto;
 }
 
 .logo {
@@ -29,3 +46,6 @@ footer {
   margin: 50px 0;
 }
 
+.icon-bar {
+  background-color: black;
+}
