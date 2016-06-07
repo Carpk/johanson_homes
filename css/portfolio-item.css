@@ -8,7 +8,7 @@ body {
   font-family: 'Lato', sans-serif;
 }
 
-h1, h2, h3, h4 {
+h1, h2 {
   font-family: 'Pinyon Script', cursive;
   letter-spacing: 1px;
 }
@@ -21,13 +21,29 @@ ul li {
   font-size: 54px;
 }
 
+.no-vert-margin {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 h1 small {
   font-size: 45%;
 }
 
 .title-borders {
-  border-top: 2px solid black;
-  border-bottom: 2px solid black;
+  display: inline-block;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  margin-bottom: 9px;
+  border-top: 1px solid #0D0D0D;
+  border-bottom: 1px solid #0D0D0D;
+}
+
+.fill-height {
+  height: 100%;
+}
+
+.title-spacing  {
 }
 
 .center-img {
