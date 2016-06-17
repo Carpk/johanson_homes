@@ -8,6 +8,12 @@ body {
   font-family: 'Lato', sans-serif;
 }
 
+.landing-image {
+  background-image: url("../images/craftsman.jpg");
+  background-size: 100vw;
+  background-repeat: no-repeat;
+}
+
 h1, h2 {
   font-family: 'Pinyon Script', cursive;
   letter-spacing: 1px;
