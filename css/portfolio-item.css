@@ -40,6 +40,15 @@ ul li {
   font-size: 88px;
 }
 
+h1 {
+  font-size: 45px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+
 .no-vert-margin {
   margin-top: 0;
   margin-bottom: 0;
