@@ -8,15 +8,23 @@ body {
   font-family: 'Lato', sans-serif;
 }
 
+@font-face {
+  font-family: 'Pharmount';
+  src: url("../fonts/Pharmount.ttf") format('truetype');
+}
+
 .landing-image {
   background-image: url("../images/craftsman.jpg");
   background-size: 100vw;
   background-repeat: no-repeat;
 }
 
+.light-text{
+  color: white;
+}
+
 h1, h2 {
-  font-family: 'Pinyon Script', cursive;
-  letter-spacing: 1px;
+  font-family: 'Pharmount', cursive;
 }
 
 ul li {
@@ -24,7 +32,7 @@ ul li {
 }
 
 .large-font {
-  font-size: 54px;
+  font-size: 88px;
 }
 
 .no-vert-margin {
