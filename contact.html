@@ -99,7 +99,7 @@
           ----------
         <p>
           Telephone<br>
-          772-260-8887 / 772-260-8889 
+          772-260-8887 / 772-260-8889
         </p>
         <p>
           Fax<br>
@@ -124,26 +124,31 @@
       <!-- /.row -->
     </footer>
   </div>
-  <!-- /.container -->
 
-  <!-- jQuery -->
   <script src="js/jquery.js"></script>
 
-  <!-- Bootstrap Core JavaScript -->
   <script src="js/bootstrap.min.js"></script>
 
-    <script>
-      function initMap() {
-        var mapDiv = document.getElementById('map');
-        var map = new google.maps.Map(mapDiv, {
-            center: {lat: 27.219, lng: -80.251},
-            zoom: 12
-        });
-      }
-    </script>
+  <script>
+    var myLatLng = {lat: 27.219, lng: -80.251};
 
-    <script async defer
-        src="https://maps.googleapis.com/maps/api/js?key=API-KEY&callback=initMap">
-    </script>
+    function initMap() {
+      var mapDiv = document.getElementById('map');
+      var myLatLng = {lat: 27.219, lng: -80.252};
+      var map = new google.maps.Map(mapDiv, {
+          center: myLatLng,
+          zoom: 13
+      });
+      var marker = new google.maps.Marker({
+        map: map,
+        position: myLatLng,
+        title: 'Johanson Homes Inc.'
+      });
+    }
+  </script>
+
+  <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=API-KEY&callback=initMap">
+  </script>
 </body>
 </html>

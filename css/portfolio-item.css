@@ -87,7 +87,18 @@ h1 small {
 }
 
 footer {
-  margin: 50px 0;
+  margin: 30px 0;
+}
+
+
+
+.low-visibility a {
+  color: #CECECE;
+}
+
+
+.low-visibility a:hover {
+  color: #333;
 }
 
 .icon-bar {
