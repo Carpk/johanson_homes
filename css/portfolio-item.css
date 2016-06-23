@@ -30,6 +30,7 @@ body {
 
 h1, h2 {
   font-family: 'Pharmount', cursive;
+  color: #404040;
 }
 
 ul li {
@@ -68,9 +69,6 @@ h1 small {
 
 .fill-height {
   height: 100%;
-}
-
-.title-spacing  {
 }
 
 .center-img {
@@ -117,3 +115,6 @@ footer {
   margin-top: 25px;
 }
 
+.sm-logo {
+  height: 144px;
+}
