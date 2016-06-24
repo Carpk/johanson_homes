@@ -142,15 +142,23 @@ footer {
   background-size: cover;
 }
 
-#about-title {
+#services-title {
   background-image: url("../images/craftsman2.jpg");
 }
 
-#services-title {
+#gallery-title {
   background-image: url("../images/craftsman3.jpg");
 }
 
-#contact-title {
+#awards-title {
   background-image: url("../images/craftsman4.jpg");
+}
+
+#about-title {
+  background-image: url("../images/craftsman5.jpg");
+}
+
+#contact-title {
+  background-image: url("../images/craftsman6.jpg");
 }
 
