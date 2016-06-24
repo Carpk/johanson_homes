@@ -6,6 +6,7 @@
 
 body {
   font-family: 'Lato', sans-serif;
+  background-color: #FFFAE1;
 }
 
 @font-face {
@@ -30,11 +31,11 @@ body {
 
 h1, h2 {
   font-family: 'Pharmount', cursive;
-  color: #404040;
+  color: #525252;
 }
 
-ul li {
-  margin-right: 3em;
+.left-spacer {
+  margin-left: 3em;
 }
 
 .large-font {
@@ -117,4 +118,17 @@ footer {
 
 .sm-logo {
   height: 144px;
+}
+
+.navbar-header {
+  margin-bottom: 96px;
+}
+
+.nav-top-spacer {
+  float: right;
+  margin-top: 72px;
+}
+
+.img-cover {
+  width: 100%;
 }
