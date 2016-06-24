@@ -6,7 +6,7 @@
 
 body {
   font-family: 'Lato', sans-serif;
-  background-color: #FFFAE1;
+  background-color: #FFFAE7;
 }
 
 @font-face {
@@ -132,3 +132,25 @@ footer {
 .img-cover {
   width: 100%;
 }
+
+.page-title-spacing {
+  color: white;
+  font-size: 7em;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#about-title {
+  background-image: url("../images/craftsman2.jpg");
+}
+
+#services-title {
+  background-image: url("../images/craftsman3.jpg");
+}
+
+#contact-title {
+  background-image: url("../images/craftsman4.jpg");
+}
+
