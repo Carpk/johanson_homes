@@ -6,7 +6,7 @@
 
 body {
   font-family: 'Lato', sans-serif;
-  background-color: #FFFAE7;
+  background-color: #FFFAE9;
 }
 
 @font-face {
@@ -27,6 +27,10 @@ body {
 .light-text{
   color: white;
   text-shadow: 0px 0px 2px #3A3A3A;
+}
+
+.heavy-font {
+  font-weight: 600;
 }
 
 h1, h2 {
@@ -126,7 +130,7 @@ footer {
 
 .nav-top-spacer {
   float: right;
-  margin-top: 72px;
+  margin-top: 6em;
 }
 
 .img-cover {
@@ -134,12 +138,17 @@ footer {
 }
 
 .page-title-spacing {
-  color: white;
-  font-size: 7em;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  color: #333;
+  font-size: 3.5em;
+  /** padding-top: 24px; **/
+  /** padding-bottom: 24px; **/
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.top-bot-spacing {
+  margin-top: 12px;
+  margin-bottom: 12px;
 }
 
 #services-title {
@@ -155,10 +164,18 @@ footer {
 }
 
 #about-title {
-  background-image: url("../images/craftsman5.jpg");
+  background: 
+    linear-gradient(
+      rgba(39, 39, 39, 0.75), 
+      rgba(39, 39, 39, 0.75)
+    ),
+    url("../images/craftsman5.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #contact-title {
   background-image: url("../images/craftsman6.jpg");
 }
+
 
