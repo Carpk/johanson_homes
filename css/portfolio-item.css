@@ -116,6 +116,13 @@ a:hover {
   color: #333;
 }
 
+.dark-low-visibility a {
+  color: #333;
+}
+
+.dark-low-visibility a:hover {
+  color: #CECECE;
+}
 .icon-bar {
   background-color: black;
 }
@@ -137,11 +144,11 @@ a:hover {
 }
 
 .sm-logo {
-  height: 168px;
+  height: 175px;
 }
 
 .nav-side-padding {
-  padding: 12px 28px 0 28px;
+  padding: 22px 24px 0px 28px;
 }
 
 .no-fluid-padding {
@@ -214,4 +221,7 @@ a:hover {
   background-image: url("../images/craftsman6.jpg");
 }
 
+.flex-height{
+  width: 100%;
+}
 

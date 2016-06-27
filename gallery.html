@@ -50,14 +50,16 @@
   <div class="container-fluid no-fluid-padding">
     <h1 id="gallery-title" class="page-header page-title-spacing">
       <center>
-        Some of our work throughout the years
+        The home should be the treasure chest of living.
       </center>
     </h1>
   </div>
   <div class="container-fluid">
     <div class="row">
       <div class="col-md-3 std-img">
+        <div class="flex-height">
         <img class="img-responsive" src="images/006.jpg" alt="">
+        </div>
       </div>
       <div class="col-md-3 std-img">
         <img class="img-responsive" src="images/007.jpg" alt="">
@@ -228,5 +230,13 @@
   </div>
   <script src="js/jquery.js"></script>
   <script src="js/bootstrap.min.js"></script>
+  <script>
+    $(function() {
+        var div = $('.flex-height');
+        var width = div.width();
+
+        $('.std-img').css('height', width/1.65);
+    });
+  </script>
 </body>
 </html>
