@@ -22,6 +22,7 @@ body {
 
 .mask {
   background-color: rgba(39, 39, 39, 0.44);
+  height: 100vh;
 }
 
 .light-text{
@@ -223,5 +224,33 @@ a:hover {
 
 .flex-height{
   width: 100%;
+}
+
+.temp-spacing {
+  padding: 42px 0 42px 0;
+  font-size: 5em;
+}
+
+html {
+  position: relative;
+}
+
+.footer-padding {
+  padding-bottom: 7em;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.special {
+  width: 100vw;
+}
+
+.no-side-margin {
+  margin-left: 0;
+  margin-right: 0;
 }
 
