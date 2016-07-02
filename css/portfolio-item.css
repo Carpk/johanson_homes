@@ -41,7 +41,7 @@ h1, h2 {
 }
 
 .left-spacer {
-  margin-left: 6vw;
+  margin-left: 5vw;
 }
 
 .large-font {
@@ -99,6 +99,10 @@ footer {
   border-bottom: solid #897957;
 }
 
+.active h2 {
+  margin-bottom: 4px;
+}
+
 a {
   /** color: #8D7249; **/
   color: #897957;
@@ -127,6 +131,9 @@ a:hover {
 .icon-bar {
   background-color: black;
 }
+.light-icon-bar {
+  background-color: white;
+}
 
 #map {
   width: 100%;
@@ -144,6 +151,10 @@ a:hover {
   margin-top: 25px;
 }
 
+.nav-logo-spacing {
+  height: 175px;
+}
+
 .sm-logo {
   height: 175px;
 }
@@ -155,10 +166,6 @@ a:hover {
 .no-fluid-padding {
  padding-left: 0px;
  padding-right: 0px;
-}
-
-.navbar-header {
-  margin-bottom: 96px;
 }
 
 .nav-top-spacer {
@@ -185,14 +192,22 @@ a:hover {
 }
 
 #services-title {
-  background-image: url("../images/craftsman2.jpg");
+  background: 
+    linear-gradient(
+      rgba(39, 39, 39, 0.75), 
+      rgba(39, 39, 39, 0.75)
+    ),
+    url("../images/craftsman2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /**background-image: url("../images/craftsman2.jpg");**/
 }
 
 #gallery-title {
   background: 
     linear-gradient(
-      rgba(39, 39, 39, 0.38), 
-      rgba(39, 39, 39, 0.24)
+      rgba(39, 39, 39, 0.75), 
+      rgba(39, 39, 39, 0.75)
     ),
     url("../images/craftsman3.jpg");
   background-repeat: no-repeat;
@@ -219,7 +234,15 @@ a:hover {
 }
 
 #contact-title {
-  background-image: url("../images/craftsman6.jpg");
+  background: 
+    linear-gradient(
+      rgba(39, 39, 39, 0.75), 
+      rgba(39, 39, 39, 0.75)
+    ),
+    url("../images/craftsman2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /**background-image: url("../images/craftsman6.jpg");**/
 }
 
 .flex-height{
@@ -254,11 +277,30 @@ footer {
   margin-right: 0;
 }
 
-.navbar .navbar-nav {
-    display: inline-block;
-    float: none;
-}
-.navbar .navbar-collapse {
-    text-align: center;
+
+
+
+@media (min-width: 768px) {
+    .navbar .navbar-nav {
+        display: inline-block;
+        float: none;
+        /**vertical-align: top;**/
+    }
+    
+    .right-nav-text-spacer {
+      margin-right: 8vw
+    }
+    
+    .navbar-header {
+      margin-bottom: 96px;
+    }
+    
+    .nav-logo-spacing {
+      height: 0;
+    }
+
+    .navbar .navbar-collapse {
+        text-align: center;
+    }
 }
 
